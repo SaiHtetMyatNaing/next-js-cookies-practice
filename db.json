@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "admin",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "role": "user",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane",
+      "createdAt": "2024-02-20T14:45:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "email": "mike@example.com",
+      "password": "password123",
+      "role": "user",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike",
+      "createdAt": "2024-03-10T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Williams",
+      "email": "sarah@example.com",
+      "password": "password123",
+      "role": "moderator",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+      "createdAt": "2024-04-05T16:20:00Z"
+    },
+    {
+      "id": 5,
+      "name": "David Brown",
+      "email": "david@example.com",
+      "password": "password123",
+      "role": "user",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+      "createdAt": "2024-05-12T11:00:00Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "token": "abc123token",
+      "expiresAt": "2025-10-09T10:30:00Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Getting Started with Next.js",
+      "content": "Next.js is an amazing React framework...",
+      "createdAt": "2024-06-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Understanding Server Actions",
+      "content": "Server Actions make form handling easy...",
+      "createdAt": "2024-06-15T14:30:00Z"
+    }
+  ]
+}
